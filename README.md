@@ -27,7 +27,7 @@ function saveName() {
 }
 
 function loadName() {
-  const savedName = localStorage.getItem('username');
+  const savedName = localStorage.getItem('username'); // récupère la valeur asocié à la clé 'username' du localStorage
   if (savedName) {
     document.getElementById('output').innerText = "Bonjour " + savedName + " !";
   } else {
