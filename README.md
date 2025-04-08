@@ -1,15 +1,15 @@
 Le localStorage est une fonctionnalité fournie par le navigateur Web qui permet de stocker des données localement, sous forme de paires clé/valeur. Ces données sont persistantes : elles restent enregistrées même après que l'utilisateur ait fermé ou rechargé la page.
 
-🔑 Caractéristiques du localStorage :
-Capacité : environ 5 à 10 Mo selon le navigateur.
+## 🔑 Caractéristiques du localStorage :
+- Capacité : environ 5 à 10 Mo selon le navigateur.
 
-Les données sont stockées sous forme de chaînes de caractères (string).
+- Les données sont stockées sous forme de chaînes de caractères (string).
 
-Accessible uniquement côté client (navigateur).
+- Accessible uniquement côté client (navigateur).
 
-Les données ne sont jamais envoyées au serveur automatiquement (contrairement aux cookies).
+- Les données ne sont jamais envoyées au serveur automatiquement (contrairement aux cookies).
 
-🧪 Exemple simple en JavaScript (vanilla)
+## 🧪 Exemple simple en JavaScript (vanilla)
 Imaginons un champ de texte où tu saisis ton prénom, et on le sauvegarde dans le localStorage.
 
 🖥️ HTML :
